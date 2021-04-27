@@ -1,0 +1,33 @@
+body{
+    background-color: #eee;
+}
+.container{
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 0 20px;
+
+}
+.home{
+    padding: 20px;
+}
+.product{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #444;
+    box-shadow: 1px 1px 8px #444;
+}
+.checkout{
+    position: relative;
+    color: rgb(218, 149, 23);
+}
+.checkout>span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 80px;
+    top: -10px;
+    border: 1px solid rgb(218, 85, 23);
+    border-radius: 50%;
+}
